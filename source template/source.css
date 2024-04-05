@@ -1,0 +1,289 @@
+/* ========================================================= Courses ========================================================= */
+.source {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.source .container h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--text-black-900);
+}
+
+.container form {
+    width: 600px;
+    height: 55px;
+    background-color: var(--search-bar);
+    margin: 50px auto 0;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 5px;
+    border: 5px solid var(--hover-color);
+}
+
+.container form input {
+    width: 100%;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 10px;
+    border-radius: 14px;
+    color: var(--text-color);
+    background-color: var(--search-bar);
+}
+
+.container form span.bx-x {
+    color: var(--text-black-700);
+    font-size: 20px;
+    cursor: pointer;
+    display: none; 
+}
+
+span.bx-x:hover {
+    transform: scale(1.2);
+}
+
+.content-sides {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.sidebox {
+    margin: 10px 15px;
+    width: 200px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.tipbox, 
+.side-list,
+.recruit,
+.donate {
+    background-color: var(--content-bg-color);
+}
+
+.tipbox h4,
+.side-list h4,
+.recruit h4,
+.donate h4 {
+    color: var(--text-black-900);
+    margin-bottom: 5px;
+    font-size: 22px;
+    font-weight: 600;
+    border-bottom: 3px solid var(--hover-color);
+}
+
+.side-list li {
+    padding: 3px 3px;
+}
+
+.tipbox li{
+    padding: 3px 3px;
+    color: var(--text-black-700);
+    font-size: 12px;
+    text-align: start;
+}
+
+.donate li {
+    padding: 3px 3px;
+    color: var(--text-black-700);
+    font-size: 12px;
+    text-align: center;
+}
+
+.contribute-btn {
+    width: 170px;
+    height: 40px;
+    font-size: 17px;
+    color: var(--text-white);
+    background-color: var(--skin-color);
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: all .5s ease;
+    margin: 10px 0;
+}
+
+.contribute-btn a {
+    color: var(--text-white);
+}
+
+.top-mrgn{
+    margin-top: 30px;
+}
+
+.side-list li a{
+    color: var(--text-black-700);
+    font-size: 12px;
+}
+
+.side-list li a:hover{
+    color: var(--hover-color);
+    font-size: 14px;
+    font-weight: 700;
+    transition: all .03 ease-in-out;
+}
+
+.question-list {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 800px;
+}
+
+.scrollbox {
+    overflow-y: scroll;
+    max-height: 1000px;
+    width: 800px;
+}
+
+.scrollbox::-webkit-scrollbar {
+    display: none;
+}
+
+.question-list .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.column h2 {
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+.column p {
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+.container h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 80px;
+    color: var(--text-color);
+    text-align: center;
+}
+
+.course-border {
+    border-bottom: 4px solid var(--hover-color);
+    width: 700px;
+    margin-left: 8px;
+    margin-bottom: 5px;
+    flex-basis: 50%;
+    text-align: center;
+}
+
+.course-border p{
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--hover-color);
+}
+
+.question-list .ques-ans {
+    display: flex;
+    justify-content: center;
+    width: 800px;
+}
+
+.question-list .row {
+    display: flex;
+    justify-content: center;
+}
+
+.question-list .column {
+    width: 700px;
+    flex-basis: 50%;
+    text-align: center;
+    margin-left: 8px;
+}
+
+.no-ans-msg {
+    display: none;
+}
+
+.msg-box {
+    background-color: var(--skin-color);
+    width: 700px;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 50px;
+    padding: 3px 0;
+}
+
+.msg-box p{
+    color: var(--text-color);
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.msg-box p i{
+    font-size: 25px;
+    margin: 0 10px;
+}
+
+.msg-note {
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--text-black-700);
+    margin-left: 170px;
+}
+
+.crs-note { 
+    padding-top: 10px;
+    color: var(--text-color);
+    font-size: 12px;
+    font-weight: 300;
+    color: var(--text-black-700);
+}
+
+/* ========================================================= MEDIA STUFF ========================================================= */
+@media (max-width: 790px) {
+    .sidebox {
+        display: none;
+    }
+
+    .course-border {
+        display: none;
+    }
+
+    .question-list {
+        margin-left: 500px;
+    }
+    
+    .ques-ans {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 200px;
+    }
+
+    .column h2,
+    .column p{
+        font-size: 16px;
+    }
+
+    .column p{
+        font-weight: 800;
+    }
+}
